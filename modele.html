@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Modele Examene</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="main-menu" class="card">
+            <h2>Modele Examene</h2>
+            <p style="text-align:center;">
+                <button id="genereaza">Generează modele examen</button>
+            </p>
+            <div id="teste-generate" style="margin-top: 20px;"></div>
+            <p style="text-align:center; margin-top:20px;">
+                <a href="index.html">Înapoi la meniul principal</a>
+            </p>
+        </div>
+
+        <div id="quiz" style="display:none;">
+            <div id="score"></div>
+            <div id="question-container">
+                <h3 id="question"></h3>
+                <div id="answers"></div>
+                <div id="feedback"></div>
+            </div>
+            <button id="next-button">Următoarea întrebare</button>
+        </div>
+
+        <!-- Container pentru afișarea raportului final -->
+        <div id="rezultat" style="display:none;"></div>
+    </div>
+
+    <script src="questions_all.js"></script>
+    <script src="modele.js"></script>
+</body>
+</html>
