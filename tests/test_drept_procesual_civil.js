@@ -2239,7 +2239,7 @@ const questions = [
     "answers": [
       "a) poate fi efectuată de către experți autorizați în condițiile legii, de institute de specialitare sau de personalități sau specialişti în domeniul respectiv dacă nu există experți autorizați;",
       "b) nu este necesară dacă judecătorul are cunoștințe de specialitate în domeniu respectiv;",
-      "c) are cea mai puternică valoare probatorie, concluziile sale fiind obligatorii.\n\n\n\t184.\tMarcați ce corespunde realității privitor la expertize:\n\na) dacă este nevoie de cercetare la fața locului, expertul citează părțile cu respectarea unui anumit termen, sub sanciunea anulării expertizei;\n\nb) experții pot fi recuzați pentru aceleași motive ca judecătorii, cu anumite particularități;\n\nc) expertiza este o probă subiectivă, obligatorie și care face inutilă proba constând în cercetarea la fața locului."
+      "c) are cea mai puternică valoare probatorie, concluziile sale fiind obligatorii."
     ],
     "correctIndexes": [
       0
