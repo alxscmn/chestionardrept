@@ -36,6 +36,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     overflow-y: auto;
+	overflow-x: hidden;
 }
 
 h1 {
@@ -113,4 +114,11 @@ h1 {
 #history ul {
     padding-left: 20px;
     font-size: 1em;
+}
+
+/* asigură-te că selectorul de capitol nu iese în afara containerului */
+#test-select-area select {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
 }
