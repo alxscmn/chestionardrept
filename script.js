@@ -188,7 +188,7 @@ window.onload = () => {
 				const savedTitle = localStorage.getItem("quiz_title");
 				if (savedTitle) document.getElementById("current-title").innerText = savedTitle;
                 document.getElementById("test-select-area").style.display = "none";
-                document.getElementById("quiz-container").style.display = "block";
+                document.getElementById("quiz-container").style.display = "flex";
                 document.getElementById("score").style.display = "block";
                 loadNextQuestion();
             };
