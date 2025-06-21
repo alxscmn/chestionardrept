@@ -36,7 +36,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     overflow-y: auto;
-	overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 h1 {
@@ -73,9 +73,9 @@ h1 {
 
 #options input[type="checkbox"] {
     margin-top: 4px;
-	flex-shrink: 0;
-	transform: scale(1.4);
-	accent-color: #4a90e2;
+    flex-shrink: 0;
+    transform: scale(1.4);
+    accent-color: #4a90e2;
 }
 
 #feedback {
@@ -118,7 +118,7 @@ h1 {
 
 /* asigură-te că selectorul de capitol nu iese în afara containerului */
 #test-select-area select {
-  width: 100%;
-  max-width: 100%;
-  box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
