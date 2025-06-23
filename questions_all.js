@@ -1516,11 +1516,11 @@ const allQuestions = [
     "multiple": true
   },
   {
-    "question": "Conform reglementrilor art. 937 alin. 2 Cod civil, bunul pierdut sau furat poate fi revendicat de la posesorul de bună-credinta dacă actiunea este intentata, sub sanctiunea decaderii, in termen de 3 ani de la data la care proprietarul a pierdut stapânirea materialã a bunului si este necesar са:",
+    "question": "Conform reglementarilor art. 937 alin. 2 Cod civil, bunul pierdut sau furat poate fi revendicat de la posesorul de bună-credinta dacă actiunea este intentata, sub sanctiunea decaderii, in termen de 3 ani de la data la care proprietarul a pierdut stapânirea materialã a bunului si este necesar са:",
     "answers": [
       "a) reclamantul sã dovedeascã că a fost detentor precar al lucrului;",
-      "b) reclamantul sã dovedeas că lucrul a iesit din patrimoniul su cu voia sa;",
-      "c) reclamantul s dovedeas că bunul a iesit din patrimoniul sau fară"
+      "b) reclamantul sã dovedeasca că lucrul a iesit din patrimoniul sau cu voia sa;",
+      "c) reclamantul sa dovedeasca că bunul a iesit din patrimoniul sau fară voia sa."
     ],
     "correctIndexes": [
       2
@@ -1532,7 +1532,7 @@ const allQuestions = [
     "answers": [
       "a) posesorul de bună-credinta poate retine bunul până la indemnizarea sa integrala pentru pretul plätit vânzatorului;",
       "b) posesorul de bună-credint nu poate retine bunul in nicio situatie;",
-      "c) posesorul, fie de bună-credinta, fie de rea-credita, poate refine bunul până la indemnizarea sa integrala pentru preful plätit vânzătorului."
+      "c) posesorul, fie de bună-credinta, fie de rea-credinta, poate retine bunul până la indemnizarea sa integrala pentru pretul plätit vânzătorului."
     ],
     "correctIndexes": [
       0
@@ -1544,7 +1544,7 @@ const allQuestions = [
     "answers": [
       "a) proprietate privat;",
       "b) proprietate publica din domeniul public;",
-      "c) proprietate privat a statului sau a unitatilor administrativ-teritoriale."
+      "c) proprietate privata a statului sau a unitatilor administrativ-teritoriale."
     ],
     "correctIndexes": [
       0,
