@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Magic Search</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h2>Magic Search</h2>
+		<!-- Secțiunea de Note -->
+        <div id="notes" style="background: #f9f9f9; border-left: 4px solid #0077cc; padding: 12px; margin-bottom:16px; color: red; font-size: 0.85em;">
+            <h3>Note:</h3>
+            <ul style="margin: 0 0 0 16px; padding: 0;">
+                <li>Introduceți primele 2-4 cuvinte din intrebare (poate sa fie fără diacritice).</li>
+				<li>Cu cât mai multe cuvinte, cu atât veți primi mai exact întrebarea căutată (dar maxim 4 cuvinte sunt suficiente, pentru a nu pierde timp).</li>
+                <li>Programul caută oriunde în întrebare, nu doar la început.</li>
+				<li>Se vor afișa doar raspunsurile corecte pentru fiecare întrebare găsită.</li>
+				<li>Atenție că există întrebari similare, dar cu variante de raspuns diferite. În acest caz, in funcție de raspunsurile corecte trebuie să vă identificați întrebarea.</li>
+            </ul>
+        </div>
+        <div id="search-box" style="text-align:center; margin-bottom:16px;">
+            <input
+                id="search-input"
+                type="text"
+                placeholder="Caută întrebarea..."
+                style="width: 60%; max-width:300px; padding:8px;"
+            />
+            <button id="search-btn" style="padding:8px 12px; margin-left:8px;">
+                Caută
+            </button>
+            <button id="clear-btn" style="padding:8px 12px; margin-left:4px;">
+                Șterge
+            </button>
+        </div>
+        <div id="search-results" style="padding:0 16px; margin-bottom:32px;"></div>
+        <p style="text-align:center;">
+            <a href="modele.html">← Înapoi la Modele Examene</a>
+        </p>
+    </div>
+
+    <script src="questions_all.js"></script>
+    <script src="MagicSearch.js"></script>
+</body>
+</html>
